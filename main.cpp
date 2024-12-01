@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//Программа является учебной
+
 
 int main() {
 	setlocale(LC_ALL, "RUS");
@@ -19,6 +19,7 @@ int main() {
 	cin >> a2;
 
 	cout << "сумма:" << a1 + a2 << endl;
+	cout << "разность:" << a1 - a2 << endl;
 	system("pause");
 
 }
